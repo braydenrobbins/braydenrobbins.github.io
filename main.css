@@ -1,0 +1,135 @@
+ body, html {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.50;
+    letter-spacing: 1.05%;
+
+    color: #efefef;
+    
+    background-image: url(Images/OverwatchBackground.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #1E212A;
+    
+
+    margin: 0 auto;
+  }
+
+ h1 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+ .column-layout {
+    max-width: 1300px;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+ #smlogo {
+    height: 260px;
+    
+ }
+
+  aside {
+    width: 20%;
+    background-color: #0D0E12;
+    opacity: .8;
+  }
+
+  
+  main {
+    width: 70%;
+  }
+
+  ul {
+      margin: 0;
+      padding:0;
+      list-style: none;
+  }
+
+  ul li a {
+      text-decoration: none;
+      color: #efefef;
+      display: block;
+      font-size: 20px;
+  }
+
+  ul li {
+      line-height: 40px;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  ul li ul a {
+      font-size: 16;
+  }
+
+  ul li a:hover {
+      background-color: #CE5E17;
+  }
+
+  ul li ul li {
+      display: none;
+  }
+
+  ul li:hover ul li {
+      display: block;
+      transition-delay: all 1s ease-out;
+  }
+
+  footer {
+      text-align: center;
+  } 
+
+  #carouselExampleIndicators {
+      max-width: 1000px;
+      max-height: 500px;
+      margin: auto;
+      overflow: hidden;
+  }
+
+  div aside img {
+      width: 100%;
+  }
+  
+  .btn {
+      margin: 0;
+      width: 100%;
+      position: center;
+      border: 0;
+      background-color: #0D0E12;
+  }
+
+  .dropdown-menu {
+      background-color: #0d0e12;
+      max-height: 280px;
+      overflow-y: scroll;
+  }
+
+  .dropdown-menu ul li {
+    width: 200px;
+    padding: 5px;
+    background-color: #0D0E12;
+  }
+
+  .dropdown-menu ul li .dropdown-toggle:hover {
+    display: block;
+  }
+
+  .btn ul li:focus, .btn ul li:hover {
+      background-color: #0D0E12;
+  }
+
+  ul li a:hover {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+  }
