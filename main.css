@@ -31,7 +31,6 @@
     padding: 20px 50px;
     display: flex;
     justify-content: space-around;
-    
   }
 
  #smlogo {
@@ -133,4 +132,10 @@
       text-decoration: none;
       color: black;
       font-size: 20px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .column-layout {
+        padding: 5px 10px;
+      }
   }
