@@ -9,7 +9,8 @@
 
     color: #efefef;
     
-    background-image: url("Images/OverwatchBackground.jpg") no-repeat;
+    background-image: url("images/OverwatchBackground.jpg");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: #1E212A;
