@@ -85,7 +85,19 @@
 
   div aside img {
       width: 100%;
-  } 
+  }
+
+  #small-ow {
+      width: 100%;
+  }
+
+  aside.col-2 {
+      padding: 0px;
+  }
+
+  .container {
+      margin: 25px auto 5px;
+  }
 
   .btn {
       margin: 0;
