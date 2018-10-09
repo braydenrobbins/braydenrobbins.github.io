@@ -11,6 +11,7 @@
     
     background-image: url("images/OverwatchBackground.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-color: #1E212A;
