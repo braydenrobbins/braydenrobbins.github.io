@@ -28,7 +28,7 @@
   nav {
     position: fixed;
     top: 8.75%;
-    z-index: 0;
+    z-index: 1000;
     left: 18.5%;
     background-color: #0D0E12;
     opacity: .8;
