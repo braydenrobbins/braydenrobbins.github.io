@@ -25,8 +25,11 @@
     margin: 20px;
   }
  
-  aside {
-    /*width: 20%;*/
+  nav {
+    position: fixed;
+    top: 8.75%;
+    z-index: 0;
+    left: 18.5%;
     background-color: #0D0E12;
     opacity: .8;
   }
