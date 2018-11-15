@@ -5,10 +5,10 @@ $(function() {
             var myHtml = ""
             if (index === 0) {
                 myHtml += "<div class='row'>"
-            } else if (index % 12 === 0) {
+            } else if (index % 4 === 0) {
                  myHtml += "</div><div class='row'>"
              }
-            myHtml += "<div class='col-md-1'><img src='" + card.imageUrl + "'/></div>" 
+            myHtml += "<div class='col-md-3'><img src='" + card.imageUrl + "'/></div>" 
             return myHtml
         }).join("\n")
         console.log(cards)
