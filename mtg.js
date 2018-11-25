@@ -11,9 +11,10 @@ $(function() {
         function displayCard() {
             var myHtml = ""
             var currentCard = data.cards.reduce(x => x.name === cardName)
-            myHtml += "<img src='" + currentCard.imageUrl + "'/></div>"
-            
-        }
+            myHtml = `<img src='${currentCard.imageUrl}'/></div>`
+            return myHtml
+        }  
+        cardList.html(currentCard);
 
 
 
