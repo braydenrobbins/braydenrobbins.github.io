@@ -13,8 +13,11 @@
     <div class="container">
         <h1>Find an Alpha Rare</h1>
         <form autocomplete="off" onsubmit="return displayCard(event)">
-        <input type="text" class="form-control" onchange="return inputChange(event)" id="cardName" placeholder="Enter a card name">
+        <input type="text" class="form-control" onchange="return inputChange(event)" onkeyup="return inputKeyUp(event)" id="cardName" placeholder="Enter a card name">
         <button type="submit" class="btn btn-primary">Submit</button>
+        <ul id="typeAhead">
+
+        </ul>
         <div class="container space">
             <div class="row">
                 <div id="cardList"></div>
