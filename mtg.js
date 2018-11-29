@@ -11,7 +11,7 @@ function inputKeyUp(event) {
     var $cardList = $("#typeAhead");
     var value = event.target.value.toLowerCase();
     console.log(value.length);
-    if (value.length < 1) {
+    if (value.length < 0) {
         $cardList.html("");
         return
     }
